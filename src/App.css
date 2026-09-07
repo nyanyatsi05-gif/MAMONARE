@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f7;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #1f2937;
+  margin-top: 35px;
+}
+
+.marks-form {
+  display: grid;
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+label {
+  font-weight: bold;
+  color: #374151;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.cancel-button {
+  background-color: #6b7280;
+}
+
+.cancel-button:hover {
+  background-color: #4b5563;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #dbeafe;
+  color: #1e3a8a;
+  border-radius: 5px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th,
+td {
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  text-align: left;
+}
+
+th {
+  background-color: #1f2937;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+}
